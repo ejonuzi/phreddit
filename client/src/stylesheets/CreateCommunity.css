@@ -1,0 +1,37 @@
+  /* New Community Form Styles */
+  #new-community-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#new-community-form label {
+    font-weight: bold;
+}
+
+#new-community-form input, 
+#new-community-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+}
+
+#new-community-form button {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#new-community-form button:hover {
+    background-color: #ff5500;
+}
+
+.community-creation-failure {
+    color: red;
+}

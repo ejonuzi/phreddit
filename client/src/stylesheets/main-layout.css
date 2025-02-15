@@ -1,0 +1,5 @@
+/* Main Layout style (nav bar on the left and page view taking up the rest */
+.main-layout {
+    display: flex;
+    flex-direction: row;
+}

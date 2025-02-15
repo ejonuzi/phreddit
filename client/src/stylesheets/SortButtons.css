@@ -1,0 +1,22 @@
+.sort-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.sort-button {
+    background-color: #cccccc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sort-button:hover {
+    background-color: #a3a3a3;
+}
+
+.sort-button.selected {
+    background-color: #7e7e7e;
+}

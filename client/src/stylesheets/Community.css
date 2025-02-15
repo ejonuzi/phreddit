@@ -1,0 +1,64 @@
+.community-page {
+font-family: Arial, sans-serif;
+padding: 20px;
+color: #333;
+}
+
+.community-header {
+margin-bottom: 10px;
+}
+
+.community-title {
+font-size: 24px;
+font-weight: bold;
+margin: 0;
+}
+
+.community-description {
+font-size: 16px;
+color: #555;
+margin: 5px 0;
+text-align: left;
+}
+
+.community-created {
+font-size: 14px;
+color: #888;
+text-align: left;
+}
+
+.community-stats {
+display: flex;
+gap: 20px;
+font-size: 14px;
+color: #444;
+margin-bottom: 15px;
+}
+
+.stat {
+font-weight: bold;
+}
+
+.posts-delimiter {
+border-bottom: 1px solid #000;
+margin-bottom: 15px;
+}
+
+.posts-list {
+max-height: 80vh;
+overflow-y: auto;
+}
+
+.join-button {
+    padding: 0px 20px;
+    background-color: white;
+    color: black;
+    border-width: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.join-button:hover {
+    background-color: grey;
+}

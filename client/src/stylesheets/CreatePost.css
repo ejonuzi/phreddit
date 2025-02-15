@@ -1,0 +1,80 @@
+
+/* New Post Page */
+.new-post-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.new-post-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Structure */
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.required::after {
+    content: " *";
+    color: red;
+}
+
+/* Input Styles */
+.input-select,
+.input-text,
+.input-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.input-text,
+.input-textarea:focus,
+.input-select:focus {
+    border-color: #ff4500;
+    outline: none;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #cc3700;
+}
+
+/* Failure Message */
+.post-failure-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
